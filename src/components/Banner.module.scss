@@ -1,0 +1,56 @@
+.banner {
+  background: url('../../public/assets/banner.png') no-repeat center center; // Ajuste o caminho para a sua imagem de banner
+  background-size: cover;
+  width: 1920px; // Largura total do banner
+  height: 100vh; // Altura automática baseada na imagem
+  position: relative;
+}
+
+.banner-content {
+  height: 100%;
+}
+
+// Para permitir a sobreposição do Navbar
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  margin-left: 0;
+  color: #fff;
+  margin-bottom: 0.6em;
+}
+
+.description {
+  font-family: 'Source Sans 3', sans-serif;
+  letter-spacing: 0.05em;
+  color: #fff;
+  width: 530px;
+  line-height: 160%;
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.button {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.48px;
+  display: inline-flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: linear-gradient(223deg, #BD1CC9 0%, #135FB8 100%);
+}

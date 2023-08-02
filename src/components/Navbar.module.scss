@@ -1,0 +1,39 @@
+.navbar {
+  width: 1920;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.container{
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+}
+
+.menuItem {
+  a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #fff;
+    &:hover{
+    color: #999;
+    }
+  }
+}
