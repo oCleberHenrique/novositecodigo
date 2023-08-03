@@ -1,0 +1,17 @@
+.button {
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.48px;
+    display: inline-flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: linear-gradient(223deg, #BD1CC9 0%, #135FB8 100%);
+}

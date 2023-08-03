@@ -5,6 +5,11 @@
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .container{
@@ -26,9 +31,9 @@
 
 .menuItem {
   a {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 0.1em;
     text-decoration: none;
     color: #fff;
