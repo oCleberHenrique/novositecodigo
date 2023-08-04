@@ -1,8 +1,11 @@
+
+import styles from '../../src/global.scss'
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner'
-import styles from '../../src/global.scss'
 import Codigo from '@/components/Codigo';
+import Solucoes from '@/components/Solucoes';
+
 
 
 
@@ -17,6 +20,7 @@ function LandingPage() {
         <Navbar />
         <Banner />
         <Codigo />
+        <Solucoes />
       </main>
     </div>
   );
