@@ -36,16 +36,27 @@
 }
 
 .cardlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 460px;
     height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #000000;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
     border: solid 2px #6548DC;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+        color: #0C74EF;
+    }
 }
 
+
 .cardTitle {
+    padding: 30px 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
@@ -61,6 +72,7 @@
 .cardDescription {
     width: 372px;
     height: 260px;
+    padding: 30px 0;
     flex-shrink: 0;
     color: #9A9A9A;
     font-family: 'Montserrat', sans-serif;
@@ -74,4 +86,7 @@
     align-items: center;
 }
 
-  
+.button {
+ text-align: center;
+ padding: 30px;
+}

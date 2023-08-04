@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './Solucoes.module.scss'
 import SvgIcon from './IconSVG';
+import IconDesk from './IconDesk';
+import IconId from './IconId';
+import IconPhone from './IconPhone';
+import CallToActionBtn from './CallToActionBtn'
 
 function Solucoes() {
     return (
@@ -9,20 +13,19 @@ function Solucoes() {
                 <SvgIcon />
                 <h2 className={styles.title}>Soluções</h2>
             </div>
-            <div className={styles.containerWithGradientBorder}>
                 <div className={styles.cardContainer}>
                     <div className={styles.cardlist}>
-                        <SvgIcon />
-                        <h3 className={styles.cardTitle}>Google ADS</h3>
+                        <IconDesk />
+                        <h3 className={styles.cardTitle}>Web Sites</h3>
                         <p className={styles.cardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum condimentum natoque quis leo, tellus pellentesque. Porttitor eget porta fringilla magnis risus vel. Sapien, cras metus accumsan sed volsectas metus accumsan sed volutpat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  Porttitor eget porta frinat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  </p>
                     </div>
                     <div className={styles.cardlist}>
-                        <SvgIcon />
-                        <h3 className={styles.cardTitle}>Google ADS</h3>
+                        <IconPhone />
+                        <h3 className={styles.cardTitle}>App's Mobile</h3>
                         <p className={styles.cardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum condimentum natoque quis leo, tellus pellentesque. Porttitor eget porta fringilla magnis risus vel. Sapien, cras metus accumsan sed volsectas metus accumsan sed volutpat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  Porttitor eget porta frinat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  </p>
                     </div>
                     <div className={styles.cardlist}>
-                        <SvgIcon />
+                        <IconId />
                         <h3 className={styles.cardTitle}>Google ADS</h3>
                         <p className={styles.cardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum condimentum natoque quis leo, tellus pellentesque. Porttitor eget porta fringilla magnis risus vel. Sapien, cras metus accumsan sed volsectas metus accumsan sed volutpat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  Porttitor eget porta frinat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  </p>
                     </div>
@@ -42,7 +45,9 @@ function Solucoes() {
                         <p className={styles.cardDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum condimentum natoque quis leo, tellus pellentesque. Porttitor eget porta fringilla magnis risus vel. Sapien, cras metus accumsan sed volsectas metus accumsan sed volutpat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  Porttitor eget porta frinat. In turpis facilisis fames nisl mauris ornare nulla urna ullamcorper.  </p>
                     </div>
                 </div>
-            </div>
+                <div className={styles.button}> 
+                <CallToActionBtn />
+                </div>
         </section>
     )
 }

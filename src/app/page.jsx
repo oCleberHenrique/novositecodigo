@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner'
 import Codigo from '@/components/Codigo';
 import Solucoes from '@/components/Solucoes';
+import Contato from '@/components/Contato';
 
 
 
@@ -21,6 +22,7 @@ function LandingPage() {
         <Banner />
         <Codigo />
         <Solucoes />
+        <Contato />
       </main>
     </div>
   );
